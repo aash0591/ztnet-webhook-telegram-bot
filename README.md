@@ -10,4 +10,5 @@ Formats and sends event data as a message to a specified Telegram chat.
 Configurable with environment variables for the Telegram bot token and chat IDs.
 
 
-
+License
+This project is licensed under the MIT License.
