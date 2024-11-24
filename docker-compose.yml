@@ -6,8 +6,8 @@ services:
     container_name: webhook-handler
     restart: unless-stopped
     environment:
-      TELEGRAM_BOT_TOKEN: "7690659054:AAE9n3jZp_ZETXLiNWNVoOfx6RUICPeADow"  # Your actual bot token
-      TELEGRAM_CHAT_IDS: "396661262,6153110527"  # Your chat ID
+      TELEGRAM_BOT_TOKEN: "Your actual bot token"  # Your actual bot token
+      TELEGRAM_CHAT_IDS: "CHAT_ID_1,CHAT_ID_2"  # Your chat ID
       WEBHOOK_URL: "http://webhook-handler:5000/webhook"  # Update if needed
     networks:
       - app-network
