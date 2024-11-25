@@ -9,6 +9,11 @@ Listens for incoming webhook events from ztnet.
 Formats and sends event data as a message to a specified Telegram chat.
 Configurable with environment variables for the Telegram bot token and chat IDs.
 
+
+Tip: use ur local ip in the domain if u have nat traversal problems
+
+
+
 ZTNET: https://github.com/sinamics/ztnet
 
 License:
