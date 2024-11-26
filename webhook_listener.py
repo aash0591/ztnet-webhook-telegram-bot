@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(message)s')  # Omit logger na
 logging.getLogger("urllib3").setLevel(logging.WARNING)  # Suppress urllib3 debug logs
 logger = logging.getLogger(__name__)
 
-# Define your webhook route
+# Define  webhook route
 @app.route('/webhook', methods=['POST'])
 def webhook():
     data = request.get_json()
